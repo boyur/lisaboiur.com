@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  top: 0
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Verdana, Geneva, sans-serif;
+
+  cursor: pointer;
+}
+
+.container h1 {
+  font-weight: 500;
+  font-size: 40px;
+}
